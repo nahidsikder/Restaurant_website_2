@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabab Factory</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-light" href="#"><img src="./kabab.png" alt="" width="150px">KABAB FACTORY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse right" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item me-5">
+              <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active text-light" aria-current="page" href="#">MENU</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active text-light" aria-current="page" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">BOOK TABLE</a>
+            </li>
+        </div>
+        
+       
+      </div>
+      
+    </nav>
+  </header>
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./burger.jpg" class="d-block  w-100" alt="...">
+          <div class="carousel-caption margin">
+            <h2>Burger</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolore nisi vero dolorem ea repellendus, esse at et minus quod?</p>
+          <button type="button" class="btn btn-warning text-light fw-bold">Order Now</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./unnamed.png" class="d-block  w-100" alt="..."  height="562px">
+          <div class="carousel-caption margin">
+            <h2>Pizza</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A error eaque dicta enim. Hic atque doloribus modi dolores fugit impedit..</p>
+            <button type="button" class="btn btn-warning text-light fw-bold">Order Now</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./-kebab.jpg" class="d-block w-100" alt="..." height="562px">
+          <div class="carousel-caption margin">
+            <h2>Kabab </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus eligendi nulla quidem saepe, esse debitis doloribus nemo consectetur eum id.</p>
+            <button type="button" class="btn btn-warning text-light fw-bold">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- cards section start-->
+  <section class="container">
+   <i> <h1 class="mt-5 text-center">Our Menu</h1></i>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+      <div class="col">
+        <div class="card bg-dark">
+          <img src="./Burger-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Burger</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$15</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  bg-dark">
+          <img src="./pizza-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Pizza</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$20</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  bg-dark">
+          <img src="./kabab-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Kabab</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$17</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+   
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+      <div class="col">
+        <div class="card bg-dark">
+          <img src="./thai fried chicken.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h4 class="card-title text-light">Thai Fried Chicken</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$15</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  bg-dark">
+          <img src="./pasta.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Pasta</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$18</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  bg-dark">
+          <img src="./frens.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious french fry</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$10</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+      <div class="col">
+        <div class="card bg-dark">
+          <img src="./chicken lollipops.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Chicken Lollipops</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$21</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  bg-dark">
+          <img src="./meat box.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Meat Box</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$16</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  bg-dark">
+          <img src="./beef steak.jpg" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h4 class="card-title text-light">Delicious Beef Steak</h4>
+            <p class="card-text text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ratione perspiciatis sunt veniam, nulla animi aperiam magni perferendis iusto suscipit.</p>
+           
+              <h4 class="text-light">$30</h4>
+              <button type="button" class="btn btn-warning left fw-bold">Order Now</button>  
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- cards section end-->
+  <div class="btn align-items-center d-block">
+    <button type="button" class="btn btn-warning left fw-bold mt-5">View More</button>  
+  </div>
+  <!-- carcel 2nd part start -->
+  <section class="mt-5 bg-dark p-5">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./burger-cartoon-fotor-bg-remover-20230930203018.png" class="d-block w-100" alt="..." width="300px" height="700px">
+          </div>
+          <div class="col-md-6">
+            <div class="text top">
+              <h2 class="text-light mt-3">Fast Food Restaurant</h2>
+              <p class="text-light mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, blanditiis reprehenderit eum et accusamus dicta soluta eveniet quia optio sunt incidunt ipsum, facilis error ipsam earum expedita veritatis delectus? Necessitatibus Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro rem sed quo minima magni, hic facilis delectus quisquam sapiente ipsum repellat culpa dolor minus odit, laboriosam, blanditiis amet esse quis! ?</p>
+              <button type="button" class="btn btn-warning left fw-bold mt-3">Read More</button>  
+            </div>
+     
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- carcel 2nd part end -->
+
+  <!-- booking from start -->
+  <section>
+ <div class="row">
+  <div class="col-md-6">
+    <div class="booking mt-5 ms-5">
+     <i> <h2>Book A Table </h2></i>
+      <input class="width mt-4" type="text" name="" id="" placeholder="Enter Your Name"><br>
+    <input class="width mt-4" type="number" name="" id="" placeholder=" Enter Phone Number"><br>
+    <input class="width mt-4" type="email" name="" id="" placeholder="Enter Your Email" > <br>
+    <input class="width mt-4" type="date" name="" id="">
+    <button type="button" class="btn btn-warning left fw-bold mt-4">Book Now</button>  
+    </div>
+
+  </div>
+  <div class="col-md-6">
+    <h2 class="mt-5"><i>Location</i></h2>
+    <iframe class="mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.501508906948!2d90.38066647512314!3d23.87182888410426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c40fb857cb01%3A0xb6ca60a98b4c89e2!2z4KaJ4Kak4KeN4Kak4Kaw4Ka-IOCmuOCnh-CmleCnjeCmn-CmsC3gp6fgp6gsIOCmquCmvuCmsOCnjeCmlQ!5e0!3m2!1sen!2sbd!4v1696141776567!5m2!1sen!2sbd" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+ </div>
+  </section>
+  <!-- booking from end-->
+  <!-- cards-2 start -->
+  <section class="mt-5">
+   <u class="text-danger"> <h1 class="mt-5 text-center">Our Services</h1></u>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+            <h2><div class="card-header">Food Quality</div></h2>
+            <div class="card-body">
+              <h5 class="card-title">food quality and safety</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quae est temporibus nostrum non vitae quo ratione aperiam quasi corporis. Eius tenetur recusandae architecto ea iusto dolorum incidunt hic atque?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+           <h2> <div class="card-header">Fast Services</div></h2>
+            <div class="card-body">
+              <h5 class="card-title">Very Fast Services</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur fugit repellat ut, quasi fugiat ullam a saepe ad molestias assumenda iusto earum perspiciatis voluptatum, doloremque voluptate deserunt nisi, aliquid consequuntur!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+            <h2><div class="card-header">Beautiful Decoration</div></h2>
+            <div class="card-body">
+              <h5 class="card-title">wonderful Decoration</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor est, illum harum, fugiat quidem mollitia aperiam sequi explicabo iusto sapiente dignissimos ad omnis, ipsam aliquid perspiciatis modi. Libero, nobis!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- cards-2 end -->
+  <!-- last part start -->
+  <section class="bg-dark mt-5">
+    <div class="container text-light p-5">
+      <div class="row">
+        <div class="col">
+          <i><h2>Contact Us</h2></i>
+          <p><i class="fa-solid fa-location-dot"></i> Location</p>
+          <p><i class="fa-solid fa-phone"></i> Call +01 1649530637</p>
+          <p><i class="fa-solid fa-envelope"></i> demo420@gmail.com</p>
+        </div>
+        <div class="col">
+          <h2>Feane</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis deleniti, ipsa at itaque ullam cumque ratione labore aspernatur officiis. Voluptate!</p>
+          <p><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i></p>
+        </div>
+        <div class="col">
+          <h2>Opening Hours</h2>
+          </p>Evryeday</p>
+          <p>10.00 Am To 11.30 Pm</p>
+        </div>
+      </div>
+      <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem aut obcaecati nulla pariatur repellat.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eligendi mollitia quibusdam minus maiores est.
+      </p>
+      
+    </div>
+   
+  </section>
+  <!-- last part end -->
+
+</body>
+</html>
